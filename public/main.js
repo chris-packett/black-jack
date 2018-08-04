@@ -16,6 +16,16 @@ const createDeck = () => {
       deck.push(card)
     }
   }
+  shuffleDeck()
+}
+
+const shuffleDeck = () => {
+  for (let i = 0; i < deck.length; i++) {
+    const j = Math.floor(Math.random() * i)
+    const tempCard = deck[i]
+    deck[i] = deck[j]
+    deck[j] = tempCard
+  }
   console.log(deck)
 }
 
