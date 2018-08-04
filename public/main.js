@@ -1,5 +1,5 @@
-const main = () => {
-  document.querySelector('h1').textContent += '?'
+const createDeckOfCards = () => {
+  console.log("Hey there, we're going to create that deck of cards you asked for!")
 }
 
-document.addEventListener('DOMContentLoaded', main)
+document.addEventListener('DOMContentLoaded', createDeckOfCards)

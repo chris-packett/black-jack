@@ -7,7 +7,38 @@
     <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <h1 class="white-text center-text">Let's Play BlackJack!</h1>
+
+    <section class="card-value-count-container">
+      <section class="user-card-value-count-container">
+        <h3 class="white-text">Your score:</h3>
+        <h3 class="display-user-card-value-count-label white-text">0</h3>
+      </section>
+      <section class="dealer-card-value-count-container">
+        <h3 class="white-text">Dealer's score:</h3>
+        <h3 class="hidden-dealer-card-value-count-label white-text">0</h3>
+      </section>
+    </section>
+
+    <section class="deal-cards-container">
+      <button class="deal-cards-button button-size">Deal Cards</button>
+    </section>
+
+    <section class="user-action-buttons-container">
+      <button class="hit-me-button button-size">Hit me!</button>
+      <button class="stand-button button-size">Stand!</button>
+    </section>
+
+    <section class="card-lists-container">
+      <ul class="white-text center-text">Your hand:</ul>
+      <ul class="white-text center-text">Dealer's hand:</ul>
+    </section>
+
+    <section class="play-again-button-container">
+      <h3 class="white-text">The winner is: <span class="display-winner-label">Blank</span></h3>
+      <button class="play-again-button button-size">Play again!</button>
+    </section>
+
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>

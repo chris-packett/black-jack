@@ -4,7 +4,7 @@
 
 - [ ] On page load, *Create* a Deck of Cards (for each object (card) in array => suit, rank, and value attributes).
 - [ ] On page load, *Shuffle* the Deck of Cards (Using Fisher-Yates shuffling algorithm).
-- [ ] On **deal-cards-button** event *Deal* two cards to the user and dealer (dealer has one face up and one face down). 
+- [ ] On **deal-cards-button** event, *Deal* two cards to the user and dealer (dealer has one face up and one face down). 
     - [ ] *Create* an array that stores objects to hold user's/dealer's current hand => **user-hand** | **dealer-hand**.
     - [ ] *Update* **display-dealer-cards-list** to have _newLi elements in its unordered list element.
     - [ ] *Update* **display-user-cards-list** to have _newLi elements in its unordered list element. 
