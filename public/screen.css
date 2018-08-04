@@ -23,6 +23,18 @@ ul {
   text-align: center;
 }
 
+.visibility-background {
+  background-color: rgba(0,0,0,.6);
+  border-radius: 1em;
+  padding: 0 1em;
+}
+
+.button-size {
+  height: 3.5em;
+  width: 8m;
+  border-radius: 1em;
+}
+
 .card-value-count-container {
   display: flex;
   justify-content: space-around;
@@ -64,8 +76,4 @@ ul {
   padding-top: 3em;
 }
 
-.button-size {
-  height: 3em;
-  width: 10m;
-  border-radius: 1em;
-}
+
