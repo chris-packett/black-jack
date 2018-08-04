@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "deploy": "surge ./public --domain black-jack.chris.surge.sh",
+    "deploy": "surge ./public --domain black-jack.chris-sdg.surge.sh",
     "start": "browser-sync start --server \"public\" --files \"public\""
   },
   "dependencies": {
