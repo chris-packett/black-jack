@@ -76,4 +76,26 @@ ul {
   padding-top: 3em;
 }
 
+.user-hand-list {
+  list-style: none;
+  padding: 1em 1em 1em 1em;
+}
+
+.user-card-list-item {
+  padding: 1em 0 0 0;
+}
+
+.dealer-hand-list {
+  list-style: none;
+  padding: 1em;
+}
+
+.dealer-card-list-item {
+  padding: 1em 0 0 0;
+}
+
+.hidden-text-dealer-card-list-item {
+  color: black;
+  padding: 1em 0 0 0;
+}
 

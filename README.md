@@ -4,25 +4,25 @@
 
 - [x] On page load, *Create* a Deck of Cards (for each object (card) in array => suit, rank, and value attributes).
 - [x] On page load, *Shuffle* the Deck of Cards (Using Fisher-Yates shuffling algorithm).
-- [ ] On **deal-cards-button** event, *Deal* two cards to the user and dealer (dealer has one face up and one face down). 
+- [x] On **deal-cards-button** event, *Deal* two cards to the user and dealer (dealer has one face up and one face down). 
     - [x] *Create* an array that stores objects to hold user's/dealer's current hand => **user-hand** | **dealer-hand**.
-    - [ ] *Update* **display-dealer-cards-list** to have _newLi elements in its unordered list element.
-    - [ ] *Update* **display-user-cards-list** to have _newLi elements in its unordered list element. 
+    - [x] *Update* **display-dealer-cards-list** to have _newLi elements in its unordered list element.
+    - [x] *Update* **display-user-cards-list** to have _newLi elements in its unordered list element. 
 - [x] *Initialize* the card value counts.
     - [x] *Hide* **hidden-dealer-card-value-count-label**.
     - [x] *Display* **display-user-card-value-count-label**
     - [x] Both are used for game logic.
-- [ ] On **hit-me-button** event, *Deal* another card to the user && *Increase* the counter.
-    - [ ] User can *Hit* until they *Stand* or *Bust* (**display-user-card-value-count-label** is greater than 21).
-    - [ ] *Update* **display-user-cards-list** to have _newLi elements in its unordered list element. 
-    - [ ] If **dealer-hand** gets an Ace and a Jack, give them an automatic win.
-    - [ ] Else If **user-hand** gets an Ace and a Jack, give them an automatic win.
-- [ ] On **stand-button** event, have the dealer *Hit* until **hidden-dealer-card-value-count-label** is 17 or more && *Reveal* dealer's hand to user.
-    - [ ] *Update* **display-dealer-cards-list** to have _newLi elements in its unordered list element. 
-- [ ] *Compare* **display-user-card-value-count-label** and **hidden-dealer-card-value-count-label** on end of _dealing-life-cycle_.
-    - [ ] If **display-user-card-value-count-label** > **hidden-dealer-card-value-count-label**, user wins.
-    - [ ] If **display-user-card-value-count-label** < **hidden-dealer-card-value-count-label**, dealer wins.
-    - [ ] If **display-user-card-value-count-label** == **hidden-dealer-card-value-count-label**, dealer wins.
+- [x] On **hit-me-button** event, *Deal* another card to the user && *Increase* the counter.
+    - [x] User can *Hit* until they *Stand* or *Bust* (**display-user-card-value-count-label** is greater than 21).
+    - [x] *Update* **display-user-cards-list** to have _newLi elements in its unordered list element. 
+    - [x] If **dealer-hand** gets an Ace and a Jack, give them an automatic win.
+    - [x] Else If **user-hand** gets an Ace and a Jack, give them an automatic win.
+- [x] On **stand-button** event, have the dealer *Hit* until **hidden-dealer-card-value-count-label** is 17 or more && *Reveal* dealer's hand to user.
+    - [x] *Update* **display-dealer-cards-list** to have _newLi elements in its unordered list element. 
+- [x] *Compare* **display-user-card-value-count-label** and **hidden-dealer-card-value-count-label** on end of _dealing-life-cycle_.
+    - [x] If **display-user-card-value-count-label** > **hidden-dealer-card-value-count-label**, user wins.
+    - [x] If **display-user-card-value-count-label** < **hidden-dealer-card-value-count-label**, dealer wins.
+    - [x] If **display-user-card-value-count-label** == **hidden-dealer-card-value-count-label**, game is pushed.
 - [ ] *Display* the winner on the screen to the **display-winner-label**.
 - [ ] On **play-again-button** event, reset the hands and reshuffle the deck. 
 
