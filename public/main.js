@@ -203,8 +203,11 @@ const playAgain = () => {
   console.log(dealerScore)
   document.querySelector('.hidden-dealer-card-value-count-label').textContent = '0'
   document.querySelector('.display-winner-label').textContent = ''
+  document.querySelector('.user-hand-list').textContent = "Your hand:"
+  document.querySelector('.dealer-hand-list').textContent = "Dealer's hand:"
   gameOver = false
   console.log(gameOver)
+  createDeck()
 }
 
 document.addEventListener('DOMContentLoaded', createDeck)

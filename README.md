@@ -23,8 +23,8 @@
     - [x] If **display-user-card-value-count-label** > **hidden-dealer-card-value-count-label**, user wins.
     - [x] If **display-user-card-value-count-label** < **hidden-dealer-card-value-count-label**, dealer wins.
     - [x] If **display-user-card-value-count-label** == **hidden-dealer-card-value-count-label**, game is pushed.
-- [ ] *Display* the winner on the screen to the **display-winner-label**.
-- [ ] On **play-again-button** event, reset the hands and reshuffle the deck. 
+- [x] *Display* the winner on the screen to the **display-winner-label**.
+- [x] On **play-again-button** event, reset the hands and reshuffle the deck. 
 
 ### Variable Names:
 
